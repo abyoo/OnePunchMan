@@ -1,0 +1,175 @@
+///////////////////////
+/*Defaults*/
+///////////////////////
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a {
+  padding: 3px 6px;
+  border-radius: 3px;
+  color: #000;
+  text-decoration: none;
+
+  &:visited {
+    color: #666;
+  }
+
+  &:hover {
+    color: white;
+    background-color: #CCE680;
+  }
+}
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
+}
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff;
+  }
+
+  ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}
+
+///////////////////////
+/*Our Code*/
+///////////////////////
+#wrapper {
+  width: 100%;
+}
+div.center {
+  margin-left: 40%;
+  font-size: 14pt;
+  height: 100%;
+  min-height: 250px;
+}
+h1, h2, h3, h4, h5, h6 {
+  //text-align: center;    
+}
+h1, h2 {
+  margin: 50px 0px;
+}
+
+/* Footer */
+div#footer {
+  margin-top: 80px;
+  background: #E6E6E6;
+  height: 50px;
+  padding: 10px;
+}
+//////////////
+/* Welcome */
+//////////////
+#header {
+  background: #CCE680;
+  height: 150px;  
+  margin: 0 auto;
+  padding-top: 25px;
+  margin-bottom: 100px;
+}
+h1#logotype {
+  font-size: 30pt;
+  letter-spacing: 5px;
+  text-align: center;
+}
+div#main-nav {
+  background: #E6E6E6;
+  padding: 10px 0px 10px 0px;
+}
+#main-nav p{
+  display: inline-block;
+  right: 0; 
+}
+#main-nav h3 {
+  padding: 0px 5px 0px 15px;
+}
+#main-nav li {
+  display: inline-block;
+}
+.buttons {
+  background: #E6E6E6;
+  height: 30px;
+  width: 250px;
+  border-radius: 4px;
+  padding: 15px;    
+}
+
+///////////
+/* User */
+///////////
+/* Simple Forms */
+div.form-container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 60%;
+  background: #E6E6E6;
+  padding: 50px;
+  border-radius: 5px;
+}
+.simple_form div.input {
+  margin-bottom: 10px;
+  clear: both;
+}
+.simple_form label {
+  margin: 2px 10px;
+}
+.simple_form input[type='submit'] {
+  margin-left: 120px;
+}
+.simple_form input[type='text'] {
+  width: 200px;
+}
+.simple_form div.button {
+  padding: 3px 10px;
+}

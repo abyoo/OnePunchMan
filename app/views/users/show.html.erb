@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="main-nav">
+			<ul>
+				<li><h3>SLOG</h3></li> |
+				<li>Trails</li> |
+				<li>Social</li> |
+				<li>Forums</li> |
+			</ul>
+		</div>
+	</div> <!--wrapper-->
+	<div class="center">
+<h1>User <%= @user.id %></h1>
+		<p id="notice"><%= notice %></p>
+		<%= link_to('Sign Out', session_path, :method => :delete) %>
+	</div>
+
+	<div id="footer">
+		<%= link_to 'Edit', edit_user_path(@user) %> |
+		<%= link_to 'Back', users_path %> |
+		<%= link_to 'Home', root_path %>
+	</div>
+</body>
+</html>
